@@ -49,20 +49,19 @@ export default function Nav() {
           <Avatar className="w-24 lg:w-36 h-auto border-2 border-primary bg-secondary">
             <AvatarImage src="./avatar.png" />
             <AvatarFallback className="w-24 h-24 lg:w-36 lg:h-36 rounded-full border-1 border-primary">
-              AM
+              KO
             </AvatarFallback>
           </Avatar>
         </div>
         <h1 className="text-[42px] font-bold lg:text-start">
-          Hi, i&#39;m Alexander 👋
+          Hi, I&#39;m Kehinde 👋
         </h1>
-        <h2 className="text-xl lg:text-start">
-          Product designer, developer, founder.
-        </h2>
+        <h2 className="text-xl lg:text-start">Full Stack Developer</h2>
         <p className="text-lg lg:text-start text-muted-foreground">
-          I help innovative startups in AI, Web3, and Finance craft exceptional
-          user experiences, translating complex technologies into intuitive
-          interfaces that resonate with humans.
+          I help startups and digital platforms in e-commerce, logistics, and
+          fitness tech build responsive, user-focused web applications—turning
+          complex workflows into intuitive, everyday tools that people love to
+          use.
         </p>
       </div>
       <nav className="lg:flex hidden">
@@ -85,7 +84,7 @@ export default function Nav() {
       <ul className="flex flex-row gap-6 mt-6 lg:mt-0">
         <Button variant="outline" size="icon">
           <a
-            href="https://github.com/0xAlexander"
+            href="https://github.com/kennyoyaf"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -94,7 +93,7 @@ export default function Nav() {
         </Button>
         <Button variant="outline" size="icon">
           <a
-            href="https://linkedin.com/in/0xAlexander"
+            href="https://linkedin.com/in/paul-oyafemi"
             target="_blank"
             rel="noopener noreferrer"
           >

@@ -12,74 +12,52 @@ import { MoveUpRight } from "lucide-react";
 
 const jobProjects = [
   {
-    imagePath: "/vela.avif",
-    title: "Vela Exchange - Product Design",
+    imagePath: "/assured-fx.png",
+    title: "Assured Aim Forex Website",
     description:
-      "Led a team of 4 designers, implementing design systems and processes to launch flagship features like Duels, Accounts, Loyalty Tiers, and Notification Tray and System.",
-    skills: [
-      "Product Design",
-      "UI/UX Design",
-      "Design System",
-      "Design Strategy",
-      "Vercel",
-      "Figma",
-    ],
-    link: "https://vela.exchange",
-  },
-  {
-    imagePath: "/l3x.avif",
-    title: "L3X Network - Founding Product Design",
-    description:
-      "L3X Network is a Layer 3 interoperability blockchain designed to provide institutions, developers, and users with secure, compliant, and efficient access to decentralized finance (DeFi) markets. My role involved founding and leading the design team, mapping UX, and designing the protocol's Landing Page and Interfaces for the Bridge, Trading, Swap, and Staking platforms.",
-    skills: [
-      "Product Design",
-      "UI/UX Design",
-      "Design System",
-      "Design Strategy",
-      "Vercel",
-      "Figma",
-    ],
-    link: "https://l3x.com",
-  },
-  {
-    imagePath: "/swoop-og-banner.webp",
-    title: "Swoop Exchange - Landing Page",
-    description:
-      "Swoop's landing page highlights the platform's use cases and solutions. Swoop Exchange is a Meta-DEX Aggregator that automatically sources, ranks and routes quotes from the best DEX Aggregators and Bridges, ensuring the best prices for on-chain and cross-chain swaps. Swoop Exchange has achieved millions in USD volume and currently has around 4000 monthly users with 0 paid marketing.",
-    skills: [
-      "Next.js",
-      "Framer",
-      "Shadcn/ui",
-      "Typescript",
-      "JavaScript",
-      "Vercel",
-      "Figma",
-    ],
-    link: "https://swoop.exchange",
-  },
-  {
-    imagePath: "/app-front-1.png",
-    title: "Swoop Exchange - Application Design",
-    description:
-      "Swoop Exchange is a next generation Meta Decentralized Exchange and Bridge Aggregator. By Aggregating the Aggregators, Bridges, and Liquidity across chains, and off-chain it solves protocol and liquidity fragmentation, significantly improving UX. Provides access to: 450,000+ Tokens, 7+ Aggregators, 13+ Bridges, 50+ DEXs, 280+ Liquidity Sources and 16+ Blockchains.",
+      "Developed the official website for Assured Aim Forex, an educational and trading platform for forex traders. Built with modern frontend tools and deployed for fast performance, the site features responsive layouts, clean design, and informative sections about services, pricing, and mentorship offerings.",
     skills: [
       "Next.js",
       "Typescript",
       "JavaScript",
+      "Node.js",
+      "Express.js",
+      "styled-components",
+      "MongoDB",
+    ],
+    link: "https://www.assuredaimforex.com",
+  },
+  {
+    imagePath: "/cartclo.png",
+    title: "Cartclo – Gym & Spa Discovery Platform",
+    description:
+      "Cartclo is a digital platform built for gym and spa lovers to discover, connect, and subscribe to fitness and wellness centers near them. It features a modern, user-friendly layout with smooth navigation, mobile responsiveness, and clean interface optimized for discovery and booking.",
+    skills: ["React.js", "Typescript", "Supabase", "styled-component"],
+    link: "https://www.cartclo.com",
+  },
+  {
+    imagePath: "/coffee-sub.png",
+    title: "Coffee Subscription Landing Page",
+    description:
+      "Created a modern landing page for a coffee subscription service. The page highlights features, benefits, and pricing tiers in a sleek, conversion-focused layout using clean animations and fast-loading images.",
+    skills: ["React.js", "Styled-component", "JavaScript"],
+    link: "https://coffee-subscription-site-three.vercel.app",
+  },
+  {
+    imagePath: "/amazona.png",
+    title: "Amazona Ecommerce App",
+    description:
+      "Full-featured ecommerce web application with product pages, cart, user authentication, admin dashboard, and Paypal integration. Built for a seamless shopping and management experience, with responsive layout and scalable design.",
+    skills: [
+      "Next.js",
+      "TypeScript",
+      "MongoDB",
+      "Paypal",
       "MUI",
-      "Tailwind CSS",
-      "Vercel",
-      "Figma",
+      "Node.js",
+      "Express.js",
     ],
-    link: "https://app.mtopswap.com",
-  },
-  {
-    imagePath: "/meikopoulos.com_PC.png",
-    title: "meikopoulos.com",
-    description:
-      "The portfolio webpage you are looking at right now. Based on Brittany Chiang's website (they awesome). Coded in Visual Studio Code.",
-    skills: ["Typescript", "JavaScript", "Tailwind CSS", "Vercel"],
-    link: "https://github.com/0xAlexander/my-website",
+    link: "https://amazona-ecommerce-rho.vercel.app/",
   },
 ];
 

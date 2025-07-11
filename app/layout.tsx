@@ -7,32 +7,32 @@ import { Analytics } from "@vercel/analytics/react";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://meikopoulos.com"),
+  metadataBase: new URL("http://localhost:3000"),
   alternates: {
-    canonical: "https://meikopoulos.com",
+    canonical: "http://localhost:3000",
   },
-  title: "Alexander Meikopoulos - Product Designer in AI, Web3, and Finance",
+  title: "Kehinde Oyafemi – Full Stack Developer",
   description:
-    "Alexander Meikopoulos is a Product designer, developer & founder.",
+    "I help startups and digital platforms in e-commerce, logistics, and fitness tech build responsive, user-focused web applications—turning complex workflows into intuitive tools people love to use.",
   keywords:
-    "Alexander Meikopoulos, Product Designer, AI, Web3, Finance, User Experience, UI/UX Design, Design Systems, Front-end Development, Decentralized Finance, DeFi, Swoop Exchange, Vela Exchange, Stealth AI Startup, Technology, Innovation, Human-Centered Design",
+    "Kehinde Oyafemi, Full Stack Developer, React, Next.js, React Native, Supabase, MongoDB, E-commerce, Logistics, Fitness Tech, UI/UX",
   openGraph: {
     locale: "en_US",
-    siteName: "Alexander Meikopoulos",
+    siteName: "Kehinde Oyafemi",
     type: "website",
-    title: "Alexander Meikopoulos",
+    title: "Kehinde Oyafemi – Full Stack Developer",
     description:
-      "Alexander Meikopoulos is a Product designer, developer & founder.",
-    url: "https://meikopoulos.com",
+      "I help startups and digital platforms in e-commerce, logistics, and fitness tech build responsive, user-focused web applications—turning complex workflows into intuitive tools people love to use.",
+    url: "http://localhost:3000",
     images: [
       {
-        url: "./og-large-meik-2.jpg",
+        url: "/public/my-image.jpg",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Alexander Meikopoulos",
+    title: "Kehinde Oyafemi – Full Stack Developer",
   },
 };
 
@@ -43,6 +43,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
+      <head>
+        <link rel="icon" href="/logo.svg" sizes="any" />
+      </head>
       <body className={inter.className}>
         <ThemeProvider
           attribute="class"

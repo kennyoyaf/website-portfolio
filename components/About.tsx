@@ -11,45 +11,35 @@ export default function About() {
       </div>
       <div className="flex flex-col gap-4">
         <p className="text-start text-muted-foreground lg:px-6">
-          Throughout my journey from coding to design, I've been guided by a
-          simple belief:{" "}
+          Throughout my journey from frontend design to fullstack development,
+          I’ve been guided by a simple belief:{" "}
           <span className="text-white">
-            technology should feel natural and intuitive.
+            software should be practical, intuitive, and empower real people.
           </span>{" "}
-          At the crossroads of AI, Web3, and Finance, I focus on creating user
-          experiences that make complex ideas accessible.
-        </p>
-        <p className="text-start  text-muted-foreground lg:px-6">
-          Currently, I'm leading product design at a stealth AI startup that's
-          rethinking how we interact with money. I'm also steering the design
-          team at{" "}
-          <a
-            className="no-wrap text-primary dark:text-white"
-            href="https://vela.exchange"
-            target="blank"
-            rel="noopener noreferrer"
-          >
-            Vela Exchange
-          </a>
-          , a decentralized platform for perpetual trading. As a co-founder,
-          designer, and developer at{" "}
-          <a
-            className="no-wrap text-primary dark:text-white"
-            href="https://swoop.exchange"
-            target="blank"
-            rel="noopener noreferrer"
-          >
-            Swoop Exchange
-          </a>
-          , I've helped build a meta-aggregation engine used daily by thousands
-          of users.
+          At the intersection of e-commerce, fitness tech, and digital
+          platforms, I focus on building web applications that turn complex
+          workflows into seamless, everyday tools.
         </p>
         <p className="text-start text-muted-foreground lg:px-6">
-          Across all the applications I've been involved with, I've had the
-          privilege to contribute in facilitating billions in transaction
-          volume. I believe in making technology feel human—designing
-          applications and experiences that are seamless extensions of
-          ourselves, serving real needs with simplicity and clarity.
+          As a fullstack developer, I’ve worked across projects like{" "}
+          <span className="text-primary dark:text-white">Cart-Clo</span>, a gym
+          management platform;{" "}
+          <span className="text-primary dark:text-white">Taelolu Venture</span>,
+          an import/export logistics system; and{" "}
+          <span className="text-primary dark:text-white">BabiesnStuffs</span>,
+          an e-commerce site for baby products. On these projects, I handled
+          everything from designing responsive, user-friendly interfaces with
+          React and Next.js to implementing backend APIs with Node.js and
+          Express, integrating real-time features using Supabase, and managing
+          databases like MongoDB.
+        </p>
+        <p className="text-start text-muted-foreground lg:px-6">
+          Across all my work, I’ve had the privilege of translating ideas into
+          functional products that serve real needs—whether helping users manage
+          gym memberships, browse curated catalogs, or streamline logistics
+          data. I believe in making technology feel human: creating applications
+          that are clear, responsive, and delightfully simple to use, while
+          ensuring performance and scalability behind the scenes.
         </p>
       </div>
     </section>

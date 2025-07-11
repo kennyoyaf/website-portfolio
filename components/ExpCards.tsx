@@ -12,97 +12,99 @@ import { MoveRight } from "lucide-react";
 
 const jobPositions = [
   {
-    timeline: "Aug 2024 — Present",
-    currentPosition: "Founding Designer & Head of Product Design",
-    place: "Stealth AI Startup",
+    timeline: "2025 – Present",
+    currentPosition: "Frontend Developer",
+    place: "Tielle Travel",
     previousPositions: [""],
     description:
-      "Establishing and leading the design team for a Stealth AI Startup set to bring the New Era of Money. My role involves founding and leading the design team, setting the vision and standards for design excellence, direct branding and actively contributing to hands-on product design for going to market.",
+      "Develop and maintain responsive travel web application interfaces using React and TypeScript. Translate UI/UX designs into functional components and integrate APIs for dynamic travel data like destinations and bookings.",
     skills: [
-      "Brand Identity",
-      "Product Design",
-      "UI/UX Design",
-      "Design Systems",
-      "Design Strategy",
-      "Team Leadership",
+      "React",
+      "TypeScript",
+      "API Integration",
+      "UI/UX",
+      "Responsive Design",
+      "Performance Optimization",
     ],
   },
   {
-    timeline: "Mar 2024 — Present",
-    currentPosition: "Head of Product Design",
-    place: "Vela Exchange",
-    previousPositions: ["Designer and Front-end Developer"],
-    description:
-      "Leading the design team for Vela Exchange, a community-first, decentralized perpetuals trading platform. My role involves setting the vision and standards for design excellence, and actively contributing to hands-on product design.",
-    skills: [
-      "Product Design",
-      "UI/UX Design",
-      "Design Systems",
-      "Design Strategy",
-      "Team Leadership",
-    ],
-  },
-  {
-    timeline: "Feb 2022 — Presents",
-    currentPosition: "Co-founder, Designer & Developer",
-    place: "Swoop Exchange",
+    timeline: "2023 – Present",
+    currentPosition: "Junior Web Developer",
+    place: "Panthers Insight Solution Ltd",
     previousPositions: [""],
     description:
-      "Co-founded, designed, and developed a Next-Gen Decentralized Exchange from MVP to launch, scaling from zero to over $10M in trading volume. Swoop Exchange is powered by a novel Meta-Aggregation Engine that leverages sophisticated routing algorithms and APIs to automatically route trades from the most profitable liquidity sources, vastly improving swap efficiency and user experience.",
+      "Built user-friendly interfaces with React and Tailwind CSS. Collaborated with designers and backend developers to create seamless web applications, ensured cross-device compatibility and improved frontend performance.",
     skills: [
-      "Typescript",
-      "JavaScript",
-      "CSS",
+      "React",
       "Tailwind CSS",
-      "MUI",
       "HTML",
-      "Figma",
-      "UI/UX Design",
-      "Blockchain tech",
-      "Project Management",
-      "Planning",
-      "Leadership",
-      "Testing & QA",
+      "JavaScript",
+      "Cross-device Compatibility",
+      "Collaboration",
     ],
   },
   {
-    timeline: "Aug 2016 — Mar 2024",
-    currentPosition: "Head of QA",
-    place: "Lykomitros Steel",
-    previousPositions: [
-      "Quality Assurance Engineer",
-      "QA/QC Administrative Support",
-    ],
-    description:
-      "Lead the QA department, focusing on renewable energy components in steel manufacturing. Maintained industry and client standards, ensuring product integrity for renewable energy.",
-    skills: [
-      "ISO Compliance",
-      "Quality Assurance",
-      "Engineering Management",
-      "ISO 9001",
-      "ISO 45001",
-      "ISO 14001",
-      "Requirement Assessment",
-      "Auditing",
-    ],
-  },
-  {
-    timeline: "Nov 2013 - May 2014",
-    currentPosition: "Digital Systems Admin - Internship",
-    place: "OTE Group (HTO)",
+    timeline: "2023",
+    currentPosition: "Fullstack Developer (Freelance)",
+    place: "Taelolu Venture Import/Export App",
     previousPositions: [""],
     description:
-      "Gained valuable experience in digital systems administration, focusing on the management of contractors and capital.",
+      "Developed a responsive web platform for crop import/export services with Next.js and styled-components. Built backend APIs with Node.js and Express to handle crop data and buyer details.",
     skills: [
-      "SQL",
-      "Administration",
-      "Problem-Solving",
-      "Computer Systems",
-      "System documentation",
-      "Networking",
-      "Cloud Computing",
-      "Automation",
-      "Scripting",
+      "Next.js",
+      "Node.js",
+      "Express",
+      "Styled-components",
+      "API Development",
+      "MongoDB",
+    ],
+  },
+  {
+    timeline: "2023 – 2024",
+    currentPosition: "Fullstack Developer (Freelance)",
+    place: "Assured FX - Forex Training Website",
+    previousPositions: [""],
+    description:
+      "Built a modern, responsive forex training platform with Next.js and styled-components. Integrated secure backend services, user authentication, and admin course management.",
+    skills: [
+      "Next.js",
+      "Node.js",
+      "Express",
+      "Styled-components",
+      "Authentication",
+      "Admin Management",
+    ],
+  },
+  {
+    timeline: "2024",
+    currentPosition: "Frontend Developer",
+    place: "BabiesnStuffs E-commerce Frontend",
+    previousPositions: [""],
+    description:
+      "Developed a responsive frontend using Next.js and Material-UI. Integrated RTK Query for efficient API data handling and implemented features like category filtering and cart integration.",
+    skills: [
+      "Next.js",
+      "React",
+      "Material-UI",
+      "RTK Query",
+      "API Integration",
+      "Responsive Design",
+    ],
+  },
+  {
+    timeline: "2024",
+    currentPosition: "Fullstack Developer",
+    place: "Amazona E-commerce Project",
+    previousPositions: [""],
+    description:
+      "Developed a fullstack e-commerce site with Next.js and Express.js. Integrated PayPal payments, handled authentication with cookie-js, and managed products and cart features.",
+    skills: [
+      "Next.js",
+      "Express.js",
+      "PayPal Integration",
+      "Cookie-js",
+      "JavaScript",
+      "Fullstack Development",
     ],
   },
 ];
@@ -130,8 +132,8 @@ export default function ExpCard() {
               <p className="text-foreground font-bold">
                 {job.currentPosition} • {job.place}
               </p>
-              {job.previousPositions.map((position, index) => (
-                <p key={index} className="text-slate-400 text-sm font-bold">
+              {job.previousPositions.map((position, idx) => (
+                <p key={idx} className="text-slate-400 text-sm font-bold">
                   {position}
                 </p>
               ))}
@@ -139,8 +141,8 @@ export default function ExpCard() {
                 {job.description}
               </CardDescription>
               <CardFooter className="p-0 flex flex-wrap gap-2">
-                {job.skills.map((skill, index) => (
-                  <Badge key={index}>{skill}</Badge>
+                {job.skills.map((skill, idx) => (
+                  <Badge key={idx}>{skill}</Badge>
                 ))}
               </CardFooter>
             </CardContent>
@@ -149,7 +151,7 @@ export default function ExpCard() {
       </>
       <div className="lg:px-12 mt-12">
         <a
-          href="mailto:alexander@meikopoulos.com"
+          href="mailto:kehindeoyafemi@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center font-medium leading-tight text-foreground group"
